@@ -9,7 +9,7 @@ def main():
     #Para1 num_of_nodes: Int
     #Para2 num_of_edges: Int
     #Keep in mind that the number of edges have to be low enough to generate such an graph, otherwise it raises an exception.
-    graph = generate_random_graph(10,5)
+    graph = generate_random_graph(5,10)
     #print(graph)
     max_degree = get_maximum_degree(graph)
     #print(max_degree)
